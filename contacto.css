@@ -1,0 +1,45 @@
+
+h3 {
+    color: #db5168;
+  }
+
+a[href="http://www.facebook.com/pinkaa.uy"] {
+    text-decoration: none;
+    color: #c9818c;
+    font-size: 25px;
+ 
+  }
+
+  a[href="http://www.facebook.com/pinkaa.uy"]:hover {
+    color: #db5168;
+    font-size: 25px;
+    
+  }
+  
+  a[href="http://www.instagram.com/pinkaa.uy"] {
+    text-decoration: none;
+    color: #c9818c;
+    font-size: 25px;
+ 
+}
+  
+  a[href="http://www.instagram.com/pinkaa.uy"]:hover {
+    color: #db5168;
+    font-size: 25px;
+
+  }
+  
+  .contactos {
+    text-decoration: none;
+    color: #c9818c;
+    font-size: 25px;
+    list-style:circle; 
+
+  }
+
+  .pagos {
+    text-decoration: none;
+    color: #c9818c;
+    font-size: 25px;
+    list-style:circle; 
+  }

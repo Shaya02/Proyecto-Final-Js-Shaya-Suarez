@@ -1,0 +1,69 @@
+
+h1{
+    color:pink;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn-carrito{
+margin-left: 20px;
+border-radius:10px;
+border-color: rgb(204, 164, 197);
+background-color: #e8d1d4;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color: aliceblue;
+}
+
+
+.btn-agregar{
+border-radius:10px;
+border-color: rgb(219, 189, 214);
+background-color: rgb(233, 169, 220);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color: aliceblue;
+}
+
+.btn-total{
+border-radius:10px;
+border-color: rgb(219, 189, 214);
+background-color: rgb(233, 169, 220);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color: aliceblue;
+align-items: flex-end;
+}
+.card-title{
+    color:pink;
+    
+}
+
+.card-text{
+    color:plum;
+}
+ 
+.card-img-top{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    transition: all 500ms ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+  }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c9818c;
+    margin-top: 300px;
+    background: linear-gradient(to left, #e0b5bb, rgba(209, 175, 175, 0.5), white);
+  }
+  

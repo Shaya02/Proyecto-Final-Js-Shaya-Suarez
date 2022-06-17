@@ -1,0 +1,33 @@
+ 
+  header {
+    background: linear-gradient(to left, #e0b5bb, rgba(209, 175, 175, 0.5), white);
+    margin-bottom: 25px;
+  }
+  
+  nav {
+    color: #c9818c;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  nav ul li {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #c9818c;
+    padding: 5px 14px;
+    margin: 0 3px;
+    cursor: pointer;
+    list-style: none;
+  }
+  nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #c9818c;
+  }
+  nav ul li a:hover {
+    color: #d46a83;
+  }
