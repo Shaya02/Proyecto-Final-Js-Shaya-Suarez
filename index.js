@@ -143,7 +143,6 @@ const agregarCarrito = (id) => {
 
 cargarProductos(PRODUCTOS, contenedor, false);
 
-
 const traerDatosJson = async () => {
 
     let response = await fetch("./api.json")
@@ -189,10 +188,13 @@ const finalizarCompra = async () => {
 localStorage.setItem("PRODUCTOS", JSON.stringify(PRODUCTOS));
 JSON.parse(localStorage.getItem("PRODUCTOS"));
 
+
 localStorage.setItem("tablaCarrito", JSON.stringify(tablaCarrito));
-let carritoEnLS= JSON.parse(localStorage.getItem("tablaCarrito"))
-if (carritoEnLS.length!=0){
+let carritoEnLS= JSON.parse(localStorage.getItem("tablaCarrito"));
+if (carritoEnLS.length !=0){
     tablaCarrito=carritoEnLS
 }
 
 renderCarrito= (tablaCarrito)
+
+
